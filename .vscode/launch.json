@@ -19,6 +19,14 @@
       "program": "job_finder_crawler.py",
       "args": ["-u", "https://vercel.com"],
       "console": "integratedTerminal"
+    },
+    {
+      "name": "🐍 BoA",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "job_finder_crawler.py",
+      "args": ["-u", "https://bankofamerica.com"],
+      "console": "integratedTerminal"
     }
   ]
 }
