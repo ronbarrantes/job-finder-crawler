@@ -3,19 +3,16 @@ import random
 import time
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
-from concurrent.futures import ThreadPoolExecutor
+
+# from concurrent.futures import ThreadPoolExecutor
 
 # List of User-Agents to rotate (pretend to be a real browser)
+
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
 ]
-
-import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse, urljoin
-
 
 def crawler(url: str, visited_pages: set, url_list: list, base_domain: str):
     if url in visited_pages:
@@ -44,8 +41,7 @@ def crawler(url: str, visited_pages: set, url_list: list, base_domain: str):
                 url_list.append(full_url)
 
 
-def fetch_page(url: str, visited_pages: set, base_domain: str, executor):
-    print(f"current url: {url}")
+def fetch_page(url: str, visited_pages: set, base_domain: str):
     if url in visited_pages:
         return
 
@@ -67,27 +63,29 @@ def fetch_page(url: str, visited_pages: set, base_domain: str, executor):
     print(f"Crawling {url}")
 
     all_herfs = soup.find_all("a", href=True)
-    print("all ----", all_herfs)
+
+    
 
     for link in all_herfs:
         href = link.get("href")
-        print(href)
         full_url = urljoin(url, href)
-        print("full_URL", full_url)
         parsed_url = urlparse(full_url)
-        print("parsed_url", parsed_url)
 
         # if parsed_url.scheme in {"http", "https"} and parsed_url.netloc.endswith(
         #     base_domain
         # ):
 
+        # if parsed_url.netloc and parsed_url.netloc.endswith(base_domain):
+        #     print("full url-->", full_url)
+        #     executor.submit(fetch_page, full_url, visited_pages, base_domain, executor)
         if parsed_url.netloc and parsed_url.netloc.endswith(base_domain):
-            print("full url-->", full_url)
-            executor.submit(fetch_page, full_url, visited_pages, base_domain, executor)
+            if full_url not in visited_pages:
+                print(f"Discovered: {full_url}")
+                fetch_page(full_url, visited_pages, base_domain)
+                # url_list.append(full_url)
 
 
 def start_crawler(start_url: str, visited_pages: set, max_threads: int = 5):
     base_domain = urlparse(start_url).netloc
 
-    with ThreadPoolExecutor(max_threads) as executor:
-        executor.submit(fetch_page, start_url, visited_pages, base_domain, executor)
+    fetch_page(start_url, visited_pages, base_domain)
