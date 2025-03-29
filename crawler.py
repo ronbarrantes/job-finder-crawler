@@ -66,7 +66,12 @@ def is_jobs_page(url: str, link_text: str) -> bool:
             return True
     return False
 
+# Shared variable to store the careers page URL
+careers_page_url = None
+
 def fetch_page(url: str, session: requests.Session, visited_pages: set, base_domain: str, executor: ThreadPoolExecutor, tasks: list, robots_parsers: dict, depth: int):
+    global careers_page_url
+
     if depth > MAX_DEPTH:
         print(f"Reached max depth at {url}")
         return
@@ -113,9 +118,12 @@ def fetch_page(url: str, session: requests.Session, visited_pages: set, base_dom
             # Check if the link is a jobs or careers page
             if is_jobs_page(full_url, link_text):
                 print(f"Jobs or careers page found: {full_url}")
+                with lock:
+                    careers_page_url = full_url  # Store the careers page URL
                 found_jobs_page.set()  # Signal that a jobs page has been found
                 return  # Stop further crawling
 
+            # If not a jobs page, continue crawling
             with lock:
                 if full_url not in visited_pages and not found_jobs_page.is_set():
                     print(f"Discovered: {full_url}")
@@ -123,7 +131,11 @@ def fetch_page(url: str, session: requests.Session, visited_pages: set, base_dom
                     task = executor.submit(fetch_page, full_url, session, visited_pages, base_domain, executor, tasks, robots_parsers, depth + 1)
                     tasks.append(task)
 
-def start_crawler(start_url: str, visited_pages: set, max_threads: int = 5):
+
+
+def start_crawler(start_url: str, visited_pages: set, max_threads: int = 5) -> str:
+    global careers_page_url
+
     base_domain = urlparse(start_url).netloc
     tasks = []
     robots_parsers = {}  # Cache for robots.txt parsers
@@ -140,6 +152,8 @@ def start_crawler(start_url: str, visited_pages: set, max_threads: int = 5):
         # Wait for all tasks to complete or until a jobs page is found
         wait(tasks)
 
-    # If no jobs or careers page is found, output a message
-    if not found_jobs_page.is_set():
-        print("No jobs or careers page found.")
+    # Return the careers page URL if found, otherwise return a fallback message
+    if careers_page_url:
+        return careers_page_url
+    else:
+        return "No jobs or careers page found."

@@ -11,6 +11,14 @@
       "program": "job_finder_crawler.py",
       "args": ["-u", "https://ronb.co"],
       "console": "integratedTerminal"
+    },
+    {
+      "name": "🐍 Vercel",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "job_finder_crawler.py",
+      "args": ["-u", "https://vercel.com"],
+      "console": "integratedTerminal"
     }
   ]
 }
