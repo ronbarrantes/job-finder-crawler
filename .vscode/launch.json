@@ -1,0 +1,32 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🐍 Crawler",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "job_finder_crawler.py",
+      "args": ["-u", "https://ronb.co"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "🐍 Vercel",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "job_finder_crawler.py",
+      "args": ["-u", "https://vercel.com"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "🐍 BoA",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "job_finder_crawler.py",
+      "args": ["-u", "https://bankofamerica.com"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

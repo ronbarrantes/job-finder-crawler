@@ -1,0 +1,196 @@
+Crawling https://www.bankofamerica.com/ at depth 0
+Discovered: https://www.bankofamerica.com/#skip-to-h1
+Discovered: https://www.bankofamerica.com/smallbusiness
+Discovered: https://www.bankofamerica.com/security-center/overview/
+Discovered: https://www.bankofamerica.com/es/
+Discovered: https://www.bankofamerica.com/customer-service/contact-us/?request_locale=en_US
+Discovered: https://www.bankofamerica.com/help/overview.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com
+Discovered: https://www.bankofamerica.com/sitemap/hub/signin.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/#defaultManageAccounts
+Discovered: https://www.bankofamerica.com/help/overview.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/mobile/mobile-banking-help.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/customer-service/contact-us/?request_locale=en_US
+Discovered: https://www.bankofamerica.com/customer-service/contact-us/?request_locale=en_US
+Discovered: https://www.bankofamerica.com/privacy/overview.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/online-banking/iphone-banking-app.go
+Discovered: https://www.bankofamerica.com/deposits/checking/checking-accounts/
+Discovered: https://www.bankofamerica.com/deposits/savings/savings-accounts/
+Discovered: https://www.bankofamerica.com/credit-cards/
+Discovered: https://www.bankofamerica.com/mortgage/home-mortgage/
+Discovered: https://www.bankofamerica.com/auto-loans/
+Discovered: https://www.bankofamerica.com/smallbusiness/
+Discovered: https://www.bankofamerica.com/student-banking/
+Discovered: https://www.bankofamerica.com/deposits/checking/advantage-banking/
+Discovered: https://www.bankofamerica.com/deposits/checking/advantage-banking/
+Discovered: https://www.bankofamerica.com/student-banking/
+Discovered: https://www.bankofamerica.com/smallbusiness/deposits/business-advantage-banking/
+Discovered: https://www.bankofamerica.com/onlinebanking/online-banking.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/
+Discovered: https://www.bankofamerica.com/deposits/checking/debit-card/
+Discovered: https://www.bankofamerica.com/signature-services/
+Discovered: https://www.bankofamerica.com/deposits/savings/savings-accounts/
+Discovered: https://www.bankofamerica.com/deposits/bank-cds/cd-accounts/
+Discovered: https://www.bankofamerica.com/deposits/iras/retirement-accounts/
+Discovered: https://www.bankofamerica.com/onlinebanking/online-banking.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/
+Discovered: https://www.bankofamerica.com/signature-services/
+Discovered: https://www.bankofamerica.com/credit-cards/
+Discovered: https://www.bankofamerica.com/credit-cards/cash-back-credit-cards/
+Discovered: https://www.bankofamerica.com/credit-cards/travel-credit-cards/
+Discovered: https://www.bankofamerica.com/credit-cards/low-interest-credit-cards/
+Discovered: https://www.bankofamerica.com/credit-cards/point-rewards-credit-cards/
+Discovered: https://www.bankofamerica.com/credit-cards/credit-cards-to-build-credit/
+Discovered: https://www.bankofamerica.com/credit-cards/student-credit-cards/
+Discovered: https://www.bankofamerica.com/credit-cards/manage-your-credit-card-account/
+Discovered: https://www.bankofamerica.com/signature-services/
+Discovered: https://www.bankofamerica.com/mortgage/home-mortgage/
+Discovered: https://www.bankofamerica.com/mortgage/refinance/
+Discovered: https://www.bankofamerica.com/home-equity/
+Discovered: https://www.bankofamerica.com/mortgage/servicing/
+Discovered: https://www.bankofamerica.com/auto-loans/
+Discovered: https://www.bankofamerica.com/auto-loans/auto-prequalification-experience/
+Discovered: https://www.bankofamerica.com/auto-loans/auto-refinance-loan/
+Discovered: https://www.bankofamerica.com/auto-loans/auto-loan-rates/
+Discovered: https://www.bankofamerica.com/auto-loans/auto-loan-calculator/
+Discovered: https://www.bankofamerica.com/auto-loans/shop-and-finance/
+Discovered: https://www.bankofamerica.com/auto-loans/
+Discovered: https://www.bankofamerica.com/deeplink/redirect.go?target=ESECart&screen=Products:ShoppingCart&version=7.9.0
+Discovered: https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/online-banking-security.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/privacy/Control.do?body=privacysecur_onlin
+Discovered: https://www.bankofamerica.com/deposits/checking/checking-accounts/
+Discovered: https://www.bankofamerica.com/deposits/checking/checking-accounts/
+Discovered: https://www.bankofamerica.com/deposits/savings/savings-accounts/
+Discovered: https://www.bankofamerica.com/deposits/savings/savings-accounts/
+Discovered: https://www.bankofamerica.com/credit-cards/
+Discovered: https://www.bankofamerica.com/credit-cards/
+Discovered: https://www.bankofamerica.com/mortgage/home-mortgage/
+Discovered: https://www.bankofamerica.com/mortgage/home-mortgage/
+Discovered: https://www.bankofamerica.com/auto-loans/
+Discovered: https://www.bankofamerica.com/auto-loans/
+Discovered: https://www.bankofamerica.com/smallbusiness/
+Discovered: https://www.bankofamerica.com/smallbusiness/
+Discovered: https://www.bankofamerica.com/student-banking/
+Discovered: https://www.bankofamerica.com/student-banking/
+Discovered: https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/
+Discovered: https://www.bankofamerica.com/online-banking/service-agreement.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/contactus/contactus.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/help/overview.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/accessible-banking/overview
+Discovered: https://www.bankofamerica.com/security-center/privacy-overview/
+Discovered: https://www.bankofamerica.com/childrens-privacy
+Discovered: https://www.bankofamerica.com/online-banking/service-agreement.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/sitemap/personal.go?request_locale=en_US
+Discovered: https://www.bankofamerica.com/security-center/online-privacy-notice/
+Discovered: https://www.bankofamerica.com/security-center/faq/online-privacy/
+Discovered: https://www.bankofamerica.com/help/equalhousing-popup/
+Crawling https://www.bankofamerica.com/#skip-to-h1 at depth 1
+Discovered: https://www.bankofamerica.com/help/overview.go?request_locale=en_US
+Crawling https://www.bankofamerica.com/security-center/overview/ at depth 1
+Discovered: https://www.bankofamerica.com/security-center/overview/#skip-to-h1
+Crawling https://www.bankofamerica.com/customer-service/contact-us/?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/customer-service/contact-us/?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/es/ at depth 1
+Discovered: https://www.bankofamerica.com/es/#skip-to-h1
+Crawling https://www.bankofamerica.com/smallbusiness at depth 1
+Discovered: https://www.bankofamerica.com/smallbusiness#skip-to-h1
+Crawling https://www.bankofamerica.com/help/overview.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/help/overview.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/sitemap/hub/signin.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/sitemap/hub/signin.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/privacy/overview.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/privacy/overview.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/mobile/mobile-banking-help.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/mobile/mobile-banking-help.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/#defaultManageAccounts at depth 1
+Discovered: https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/#skip-to-h1
+Crawling https://www.bankofamerica.com at depth 1
+Discovered: https://www.bankofamerica.com#skip-to-h1
+Crawling https://www.bankofamerica.com/online-banking/iphone-banking-app.go at depth 1
+Discovered: https://www.bankofamerica.com/online-banking/iphone-banking-app.go#skip-to-h1
+Crawling https://www.bankofamerica.com/deposits/checking/checking-accounts/ at depth 1
+Discovered: https://www.bankofamerica.com/deposits/checking/checking-accounts/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/#skip-to-h1
+Crawling https://www.bankofamerica.com/mortgage/home-mortgage/ at depth 1
+Discovered: https://www.bankofamerica.com/mortgage/home-mortgage/#skip-to-h1
+Crawling https://www.bankofamerica.com/deposits/savings/savings-accounts/ at depth 1
+Discovered: https://www.bankofamerica.com/deposits/savings/savings-accounts/#skip-to-h1
+Crawling https://www.bankofamerica.com/smallbusiness/ at depth 1
+Discovered: https://www.bankofamerica.com/smallbusiness/#skip-to-h1
+Crawling https://www.bankofamerica.com/smallbusiness/deposits/business-advantage-banking/ at depth 1
+Discovered: https://www.bankofamerica.com/smallbusiness/deposits/business-advantage-banking/#skip-to-h1
+Crawling https://www.bankofamerica.com/auto-loans/ at depth 1
+Discovered: https://www.bankofamerica.com/auto-loans/#skip-to-h1
+Crawling https://www.bankofamerica.com/student-banking/ at depth 1
+Discovered: https://www.bankofamerica.com/student-banking/#main-content
+Crawling https://www.bankofamerica.com/onlinebanking/online-banking.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/onlinebanking/online-banking.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/deposits/checking/advantage-banking/ at depth 1
+Discovered: https://www.bankofamerica.com/deposits/checking/advantage-banking/#skip-to-h1
+Crawling https://www.bankofamerica.com/signature-services/ at depth 1
+Discovered: https://www.bankofamerica.com/signature-services/#skip-to-h1
+Crawling https://www.bankofamerica.com/deposits/checking/debit-card/ at depth 1
+Discovered: https://www.bankofamerica.com/deposits/checking/debit-card/#skip-to-h1
+Crawling https://www.bankofamerica.com/deposits/bank-cds/cd-accounts/ at depth 1
+Discovered: https://www.bankofamerica.com/deposits/bank-cds/cd-accounts/#skip-to-h1
+Crawling https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/ at depth 1
+Discovered: https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/cash-back-credit-cards/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/cash-back-credit-cards/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/point-rewards-credit-cards/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/point-rewards-credit-cards/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/low-interest-credit-cards/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/low-interest-credit-cards/#skip-to-h1
+Crawling https://www.bankofamerica.com/deposits/iras/retirement-accounts/ at depth 1
+Discovered: https://www.bankofamerica.com/deposits/iras/retirement-accounts/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/credit-cards-to-build-credit/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/credit-cards-to-build-credit/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/travel-credit-cards/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/travel-credit-cards/#skip-to-h1
+Crawling https://www.bankofamerica.com/mortgage/refinance/ at depth 1
+Discovered: https://www.bankofamerica.com/mortgage/refinance/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/student-credit-cards/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/student-credit-cards/#skip-to-h1
+Crawling https://www.bankofamerica.com/credit-cards/manage-your-credit-card-account/ at depth 1
+Discovered: https://www.bankofamerica.com/credit-cards/manage-your-credit-card-account/#skip-to-h1
+Crawling https://www.bankofamerica.com/mortgage/servicing/ at depth 1
+Discovered: https://www.bankofamerica.com/mortgage/servicing/#skip-to-h1
+Crawling https://www.bankofamerica.com/auto-loans/auto-loan-rates/ at depth 1
+Discovered: https://www.bankofamerica.com/auto-loans/auto-loan-rates/#skip-to-h1
+Crawling https://www.bankofamerica.com/auto-loans/auto-prequalification-experience/ at depth 1
+Discovered: https://www.bankofamerica.com/auto-loans/auto-prequalification-experience/#skip-to-h1
+Crawling https://www.bankofamerica.com/auto-loans/auto-refinance-loan/ at depth 1
+Discovered: https://www.bankofamerica.com/auto-loans/auto-refinance-loan/#skip-to-h1
+Crawling https://www.bankofamerica.com/home-equity/ at depth 1
+Discovered: https://www.bankofamerica.com/home-equity/#skip-to-h1
+Crawling https://www.bankofamerica.com/auto-loans/shop-and-finance/ at depth 1
+Discovered: https://www.bankofamerica.com/auto-loans/shop-and-finance/#skip-to-h1
+Crawling https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/online-banking-security.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/online-banking-security.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/auto-loans/auto-loan-calculator/ at depth 1
+Discovered: https://www.bankofamerica.com/auto-loans/auto-loan-calculator/#skip-to-h1
+Crawling https://www.bankofamerica.com/privacy/Control.do?body=privacysecur_onlin at depth 1
+Discovered: https://www.bankofamerica.com/privacy/Control.do?body=privacysecur_onlin#skip-to-h1
+Crawling https://www.bankofamerica.com/deeplink/redirect.go?target=ESECart&screen=Products:ShoppingCart&version=7.9.0 at depth 1
+Discovered: https://www.bankofamerica.com/deeplink/redirect.go?target=ESECart&screen=Products:ShoppingCart&version=7.9.0#skip-to-h1
+Crawling https://www.bankofamerica.com/online-banking/service-agreement.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/online-banking/service-agreement.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/accessible-banking/overview at depth 1
+Discovered: https://www.bankofamerica.com/accessible-banking/overview#skip-to-h1
+Crawling https://www.bankofamerica.com/contactus/contactus.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/contactus/contactus.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/security-center/privacy-overview/ at depth 1
+Discovered: https://www.bankofamerica.com/security-center/privacy-overview/#skip-to-h1
+Crawling https://www.bankofamerica.com/childrens-privacy at depth 1
+Discovered: https://www.bankofamerica.com/childrens-privacy#skip-to-h1
+Crawling https://www.bankofamerica.com/sitemap/personal.go?request_locale=en_US at depth 1
+Discovered: https://www.bankofamerica.com/sitemap/personal.go?request_locale=en_US#skip-to-h1
+Crawling https://www.bankofamerica.com/security-center/online-privacy-notice/ at depth 1
+Discovered: https://www.bankofamerica.com/security-center/online-privacy-notice/#skip-to-h1
+Crawling https://www.bankofamerica.com/help/equalhousing-popup/ at depth 1
+Discovered: https://www.bankofamerica.com/help/equalhousing-popup/#skip-to-h1
+Crawling https://www.bankofamerica.com/security-center/faq/online-privacy/ at depth 1
+Discovered: https://www.bankofamerica.com/security-center/faq/online-privacy/#skip-to-h1
+No jobs or careers page found.
+-->> {'https://www.bankofamerica.com/online-banking/iphone-banking-app.go', 'https://www.bankofamerica.com', 'https://www.bankofamerica.com/credit-cards/credit-cards-to-build-credit/', 'https://www.bankofamerica.com/deeplink/redirect.go?target=ESECart&screen=Products:ShoppingCart&version=7.9.0', 'https://www.bankofamerica.com/deposits/iras/retirement-accounts/', 'https://www.bankofamerica.com/online-banking/service-agreement.go?request_locale=en_US', 'https://www.bankofamerica.com/onlinebanking/online-banking.go?request_locale=en_US', 'https://www.bankofamerica.com/', 'https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/online-banking-security.go?request_locale=en_US', 'https://www.bankofamerica.com/accessible-banking/overview', 'https://www.bankofamerica.com/contactus/contactus.go?request_locale=en_US', 'https://www.bankofamerica.com/sitemap/personal.go?request_locale=en_US', 'https://www.bankofamerica.com/auto-loans/', 'https://www.bankofamerica.com/smallbusiness', 'https://www.bankofamerica.com/student-banking/', 'https://www.bankofamerica.com/security-center/faq/online-privacy/', 'https://www.bankofamerica.com/credit-cards/', 'https://www.bankofamerica.com/smallbusiness/deposits/business-advantage-banking/', 'https://www.bankofamerica.com/credit-cards/student-credit-cards/', 'https://www.bankofamerica.com/auto-loans/auto-loan-calculator/', 'https://www.bankofamerica.com/help/equalhousing-popup/', 'https://www.bankofamerica.com/credit-cards/cash-back-credit-cards/', 'https://www.bankofamerica.com/auto-loans/shop-and-finance/', 'https://www.bankofamerica.com/signature-services/', 'https://www.bankofamerica.com/privacy/Control.do?body=privacysecur_onlin', 'https://www.bankofamerica.com/#skip-to-h1', 'https://www.bankofamerica.com/deposits/checking/checking-accounts/', 'https://www.bankofamerica.com/privacy/overview.go?request_locale=en_US', 'https://www.bankofamerica.com/es/', 'https://www.bankofamerica.com/security-center/overview/', 'https://www.bankofamerica.com/auto-loans/auto-refinance-loan/', 'https://www.bankofamerica.com/auto-loans/auto-prequalification-experience/', 'https://www.bankofamerica.com/sitemap/hub/signin.go?request_locale=en_US', 'https://www.bankofamerica.com/credit-cards/travel-credit-cards/', 'https://www.bankofamerica.com/mortgage/servicing/', 'https://www.bankofamerica.com/auto-loans/auto-loan-rates/', 'https://www.bankofamerica.com/deposits/checking/advantage-banking/', 'https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/#defaultManageAccounts', 'https://www.bankofamerica.com/home-equity/', 'https://www.bankofamerica.com/mortgage/refinance/', 'https://www.bankofamerica.com/security-center/online-privacy-notice/', 'https://www.bankofamerica.com/deposits/bank-cds/cd-accounts/', 'https://www.bankofamerica.com/credit-cards/low-interest-credit-cards/', 'https://www.bankofamerica.com/mortgage/home-mortgage/', 'https://www.bankofamerica.com/customer-service/contact-us/?request_locale=en_US', 'https://www.bankofamerica.com/online-banking/mobile-and-online-banking-features/', 'https://www.bankofamerica.com/deposits/checking/debit-card/', 'https://www.bankofamerica.com/credit-cards/point-rewards-credit-cards/', 'https://www.bankofamerica.com/credit-cards/manage-your-credit-card-account/', 'https://www.bankofamerica.com/childrens-privacy', 'https://www.bankofamerica.com/mobile/mobile-banking-help.go?request_locale=en_US', 'https://www.bankofamerica.com/deposits/savings/savings-accounts/', 'https://www.bankofamerica.com/smallbusiness/', 'https://www.bankofamerica.com/help/overview.go?request_locale=en_US', 'https://www.bankofamerica.com/security-center/privacy-overview/'}

@@ -7,17 +7,19 @@
 # I want it to have a heuristic of looking for the words jobs or careers
 
 # from html.parser import HTMLParser
-from crawler import crawler
-from urllib.parse import urlparse
+from crawler import start_crawler
+from utils.cli_arguments import parse_arguments
+from utils.normalize_url import normalize_url
 
-URL = "https://ronb.co"
 
-url_list = []
-visited_pages = set()  # Use a set for visited pages
+def main():
+    args = parse_arguments()
+    visited_pages = set()
 
-parse_url = urlparse(URL)
-base_domain = parse_url.netloc
+    url = normalize_url(args.url)
+    start_crawler(url, visited_pages)
+    print("-->>", visited_pages)
 
-crawler(URL, visited_pages, url_list, base_domain)
 
-print("-->>", visited_pages)
+if __name__ == "__main__":
+    main()
