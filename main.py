@@ -7,28 +7,17 @@
 # I want it to have a heuristic of looking for the words jobs or careers
 
 # from html.parser import HTMLParser
-import requests
-from bs4 import BeautifulSoup
+from crawler import crawler
+from urllib.parse import urlparse
 
 URL = "https://ronb.co"
 
 url_list = []
-visited_pages = {}
+visited_pages = set()  # Use a set for visited pages
 
+parse_url = urlparse(URL)
+base_domain = parse_url.netloc
 
-def crawler(url, visited_pages):
-    res = requests.get(url)
-    soup = BeautifulSoup(res.content, "html.parser")
+crawler(URL, visited_pages, url_list, base_domain)
 
-    print(f"Status Code: {res.status_code}")
-
-    print("\n Respond content:")
-
-    print(soup.find_all("a"))
-
-    for link in soup.find_all("a"):
-        print(link.get("href"))
-        url_list.append(link.get("href"))
-
-
-crawler(URL, visited_pages)
+print("-->>", visited_pages)
