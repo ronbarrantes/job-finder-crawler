@@ -101,11 +101,15 @@ def fetch_page(url: str, session: requests.Session, visited_pages: set, base_dom
 
     for link in all_herfs:
         href = link.get("href")
+        if not href:
+            continue  # Skip links without an href attribute
+
         full_url = urljoin(url, href)
         parsed_url = urlparse(full_url)
         link_text = link.get_text(strip=True)
 
-        if parsed_url.netloc and parsed_url.netloc.endswith(base_domain):
+        # Allow subdomains by checking if the base domain is part of the netloc
+        if parsed_url.netloc and base_domain in parsed_url.netloc:
             # Check if the link is a jobs or careers page
             if is_jobs_page(full_url, link_text):
                 print(f"Jobs or careers page found: {full_url}")
@@ -118,7 +122,6 @@ def fetch_page(url: str, session: requests.Session, visited_pages: set, base_dom
                     # Submit the task to the executor and track it
                     task = executor.submit(fetch_page, full_url, session, visited_pages, base_domain, executor, tasks, robots_parsers, depth + 1)
                     tasks.append(task)
-
 
 def start_crawler(start_url: str, visited_pages: set, max_threads: int = 5):
     base_domain = urlparse(start_url).netloc
