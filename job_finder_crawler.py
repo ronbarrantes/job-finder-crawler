@@ -9,12 +9,15 @@
 # from html.parser import HTMLParser
 from crawler import start_crawler
 from utils.cli_arguments import parse_arguments
+from utils.normalize_url import normalize_url
 
 
 def main():
     args = parse_arguments()
     visited_pages = set()
-    start_crawler(args.url, visited_pages)
+
+    url = normalize_url(args.url)
+    start_crawler(url, visited_pages)
     print("-->>", visited_pages)
 
 
